@@ -183,6 +183,8 @@ export default class App extends Component {
 
   /**
    * para la calida de la foto solo se toma la la propiedad de ratio={4:3} es el valor por default
+   * esto genera una imagen con una dimencion de 480x720 y un peso aproximadamente de 47.3KB - 50KB
+   * se le puede agregar mas calidad a la imagen pero primero probaremos de esta forma a ver si  es optimo
    */
   toggleScreen=()=>{
     
